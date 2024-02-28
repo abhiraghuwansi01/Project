@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Bar Graph</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .graph-container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .bar-chart {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .bar {
+            width: 50px;
+            height: 200px;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .bar span {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .bar:nth-child(2) span {
+            background-color: #e74c3c;
+        }
+
+        .bar:nth-child(3) span {
+            background-color: #2ecc71;
+        }
+
+        .bar:nth-child(4) span {
+            background-color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <div class="graph-container">
+        <h2>3D Bar Graph</h2>
+        <div class="bar-chart">
+            <div class="bar">
+                <span>562,434</span>
+            </div>
+            <div class="bar">
+                <span>8,928</span>
+            </div>
+            <div class="bar">
+                <span>$943,950.00</span>
+            </div>
+            <div class="bar">
+                <span>$5,946,850.00</span>
+            </div>
+        </div>
+        <div class="labels">
+            <p>Total SF Sold</p>
+            <p>Average Building Size</p>
+            <p>Average Sales Price</p>
+            <p>Total Volume Sold</p>
+        </div>
+    </div>
+</body>
+</html>

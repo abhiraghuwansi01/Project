@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Bid</title>
+    <link rel="stylesheet" href="./request.css"> 
+    <link rel="stylesheet" href="./dealer.css"> 
+
+    <script>
+        // JavaScript to handle the button click and show the content
+        function showContent() {
+            var contentContainer = document.getElementById('content-container');
+            contentContainer.style.display = 'block';
+        }
+    </script>
+
+</head>
+<body>
+  <div id="overlay"></div>
+    <section class="section1">
+      
+        <div class="row1">
+            <h2 class="h2-heading-request">
+                Contractor Connection
+            </h2>
+            <p class="p-paraghraph-request">
+              <img src="image/icon2.png" alt="icon" width="50px"> <span class="span-welcome-request">Welcome Back</span> 
+            </p>
+        </h6>
+        <div class="button-2"> 
+  
+        <button type="button" onclick="showContent()" class="btn-apply"><span class="span-apply-btn">Request Bid</span>  <img src="image/icon3.png" class="img-icon3" alt="icon3" width="40px" height="40px"></button>
+    
+          </div> 
+        </div>
+      <div class="row2"> 
+
+      <section id="content-container">
+      <div class="form">
+          <header class="main-header">
+                <div class="logo">
+                <img src="image/logo3.png" alt="logo3" class="img-fluid" width="145px">
+            </div>
+             <div class="main-heading"><h1 class="h1-heading-dealer">DEALER SERVICES</h1></div>
+                    
+          </header>
+                
+      <form>
+          <ul class="form-style-1">
+            <li>
+                <label>Customer Name<span class="required">*</span></label>
+                <input type="text" name="field1" class="field-divided" placeholder="First" /> 
+                <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+              
+            <li>
+                <label>Job Site Address<span class="required">*</span></label>
+                <input type="text" name="field3" class="field-long" placeholder="Full Address" />
+            </li>
+
+            <li>
+                <input type="text" name="field4" class="field-divided1" placeholder="Job Site City" /> 
+                <input type="text" name="field5" class="field-divided1" placeholder="Job Site State" />
+                <input type="text" name="field6" class="field-divided1" placeholder="Job Site Zip" />
+            </li>
+                    
+            <li>
+            <label class="input-lable-h">Building Requirements<span class="required">*</span><br>
+            <input type="text" name="field7" class="field-divided1" placeholder="Width" /> 
+            <input type="text" name="field8" class="field-divided1" placeholder="Length" />
+            <input type="text" name="field9" class="field-divided1" placeholder="Eave Height" />
+            </li>
+            <li>
+                      
+                <input type="text" name="field10" class="field-divided1" placeholder="Pitch" /> 
+                <input type="text" name="field11" class="field-divided1" placeholder="Roof Style" />
+                <input type="text" name="field12" class="field-divided1" placeholder="Column Type" />
+            </li>
+
+            <li>
+                      
+                <input type="text" name="field13" class="field-divided1" placeholder="Bracing" /> 
+                <input type="text" name="field14" class="field-divided1" placeholder="Base Condition" />
+                <input type="text" name="field15" class="field-divided1" placeholder="Roof Sheeting" />
+            </li>
+            <li>
+                      
+                <input type="text" name="field16" class="field-divided1" placeholder="Wall Sheeting" /> 
+                <input type="text" name="field17" class="field-divided1" placeholder="Girt Conditions" />
+                <input type="text" name="field18" class="field-divided1" placeholder="Frame Coatings" />
+            </li>
+                    
+                    
+            <li>
+                <label class="input-lable-h">Design Requirements<span class="required">*</span><br>
+                <input type="text" name="field19" class="field-divided1" placeholder="Building Code" /> 
+                <input type="text" name="field20" class="field-divided1" placeholder="Wind Load" />
+                <input type="text" name="field21" class="field-divided1" placeholder="Exposure" />
+            </li>
+            <li>
+                      
+                <input type="text" name="field22" class="field-divided1" placeholder="Ground Snow" /> 
+                <input type="text" name="field23" class="field-divided1" placeholder="Roof Snow" />
+                <input type="text" name="field24" class="field-divided1" placeholder="Occupancy Cat" />
+            </li>
+
+            <li>
+                      
+                <input type="text" name="field25" class="field-divided1" placeholder="Collateral Load" /> 
+                <input type="text" name="field26" class="field-divided1" placeholder="Live Load" />
+                <input type="text" name="field27" class="field-divided1" placeholder="Load Reduction" />
+            </li>
+            <li>
+                <label>Additional Requirements <span class="required">*</span></label>
+                <label>(Framed Openings, Doors, Windows, Insulation, Accessories and Customizations)</label>
+                <input type="text" name="field28" class="field-long" />
+                      
+            </li>
+            <li>
+                <input type="text" name="field29" class="field-long" />
+            </li>
+            <li>
+                <input type="text" name="field30" class="field-long" />
+            </li>
+            <li>
+                <input type="text" name="field31" class="field-long" />
+            </li>
+            <li>
+              <label class="input-lable-h">For Gable Steel Use Only<span class="required">*</span><br>
+              <input type="text" name="field32" class="field-divided1" placeholder="Reference #" /> 
+              <input type="text" name="field33" class="field-divided1" placeholder="Valid Until Date" />
+              <input type="text" name="field35" class="field-divided1" placeholder="Project Manager" />
+            </li>
+            <li>
+              
+              <input type="text" name="field36" class="field-divided1" placeholder="Ground Snow" /> 
+              <input type="text" name="field37" class="field-divided1" placeholder="Roof Snow" />
+              <input type="text" name="field38" class="field-divided1" placeholder="Occupancy Cat" />
+            </li>
+
+            <li>
+              
+              <input type="text" name="field39" class="field-divided1" placeholder="Building Price" /> 
+              <input type="text" name="field40" class="field-divided1" placeholder="Sales Tax" />
+              <input type="text" name="field41" class="field-divided1" placeholder="Total Purchase Price" />
+            </li>
+                    
+              
+                      
+              
+                     
+                      <li>
+                        <a href="#" class="a-button-dealer"><button type="button" class="btn-dealer-bid">LET'S GET BUILDING</button> </a>
+                      </li>
+                  </ul>
+                  </form>
+            </div>
+            </section>
+     </div>
+    </section>
+</body>
+</html>

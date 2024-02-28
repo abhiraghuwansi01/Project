@@ -1,0 +1,146 @@
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+  
+  <meta charset="UTF-8"> 
+
+  <title> Login Form </title> 
+
+  <link rel="stylesheet" href="./login.css"> 
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <script>
+    function togglePopup() {
+        var popup = document.getElementById('popupForm');
+        var overlay = document.getElementById('overlay');
+
+        // Toggle the visibility of the popup and overlay
+        if (popup.style.display === 'none' || popup.style.display === '') {
+            popup.style.display = 'block';
+            overlay.style.display = 'block';
+        } else {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+        }
+    }
+</script>
+ </head> 
+
+ <body>
+   <!-- partial:index.partial.html --> 
+   <div  class="overlay"></div>
+  <div class="logo-image">
+    <img src="image/logo3.png" alt="logo03" width="200px">
+   </div>
+  <section> 
+
+   <div class="signin"> 
+
+    <div class="content"> 
+
+     <h2>WELCOME TO OUR CONTRACTOR NETWORK</h2> 
+
+     <div class="form"> 
+
+      <div class="inputBox"> 
+   
+  
+        <img src="image/icon2.png" class="image-icon2" alt="icon01"> 
+    <input type="text" required>  <i class='fas'> Username</i> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="password" required>  <img src="image/icon1.png" class="image-icon2" alt="icon01"><i> Password</i> 
+
+      </div> 
+
+      <div class="links"> <p><input type="checkbox" placeholder=""  /><span class="span-forget">Remember me</span> </p> <a href="#" class="a-tag-forgot">Forgot Password?</a> 
+
+      </div> 
+
+      <div class="button"> 
+
+   
+   <a href="request_bid.html"><button type="button" class="btn-login">LOGIN</button></a>
+ 
+      </div> 
+       
+     </div> 
+     <div>
+       <h6 class="h6-heading">Apply to join Gable Steel Contractor Network
+      </h6>
+      <div class="button-1"> 
+
+     <button type="button" onclick="togglePopup()" class="btn-apply"><span class="span-apply-btn">APPLY NOW</span>  <img src="image/icon3.png" class="img-icon3" alt="icon3" width="50px" height="50px"></button>
+  
+        </div> 
+      </div>
+    </div> 
+
+   </div> 
+
+   <!-- popup form -->
+
+   <div id="popupForm" class="popup">
+    <h3 class="hs-popup-form"> Dealer Registration Form </h3>
+   <form>
+    <ul class="form-style-1">
+        <li><label>Business Owner<span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+
+        <li>
+          <label>Business Name<span class="required">*</span></label>
+          <input type="text" name="field3" class="field-long" />
+      </li>
+      <li>
+        <label>Contact Number<span class="required">*</span></label>
+        <input type="number" name="field4" class="field-long" />
+    </li>
+
+        <li>
+          <label>Email <span class="required">*</span></label>
+          <input type="email" name="field5" class="field-long" />
+      </li>
+
+      <li>
+        <label> Address <span class="required">*</span></label>
+        <input type="text" name="field6" class="field-long" placeholder="Address Line 1" />
+
+        
+    </li>
+
+    <li>
+      <input type="text" name="field6" class="field-long" placeholder="Address Line 2" />
+  </li>
+
+        
+
+        <li><input type="text" name="field7" class="field-divided" placeholder="City" />
+        <input type="text" name="field7" class="field-divided" placeholder="State" /></li>
+        <li>
+          <li><input type="text" name="field1" class="field-divided" placeholder="Postal/Zip Code" />
+              <select name="field8" class="field-divided">
+            <option value="Advertise">Advertise</option>
+            <option value="Partnership">Partnership</option>
+            <option value="General Question">General</option>
+            </select></li>
+        <li>
+        <li>
+            <label>Your Message <span class="required">*</span></label>
+            <textarea name="field9" id="field5" class="field-long field-textarea"></textarea>
+        </li>
+        <li>
+            <input type="submit" value="Submit" />
+        </li>
+    </ul>
+    </form>
+    <button class="btn-close-popup-form" onclick="togglePopup()">Close</button>
+  </div> 
+
+  </section> <!-- partial --> 
+<div id="overlay"></div>
+ </body>
+
+</html>

@@ -1,0 +1,204 @@
+
+
+.main-header {
+  display: flex;
+  width: 100%;
+}
+.main-heading{
+    width: 85%;
+    background-color: #9d2222;
+    color: white;
+}
+.logo{
+width: 15%;
+box-shadow: 1px 1px  10px  1px rgb(196, 187, 187);
+
+
+}
+h1.h1-heading-dealer {
+    font-size: 70px;
+    margin-top: 20px;
+    margin-left: 60px;
+    position: absolute;
+    top: 25px;
+}
+table, th, td {
+    border: 1px solid rgb(201, 192, 192);
+    border-collapse: collapse;
+  }
+  td{
+   width: 150px;
+   height: 20px;
+
+  }
+.input-space{
+ 
+ width: 100px;
+
+}
+  th{
+    width: 250px;
+    height: 20px;
+   }
+  .colume-date{
+    position: relative;
+    margin-top: 68px;
+  }
+
+  .colume1{
+    display: flex;
+    margin: 3px;
+    position: absolute;
+    bottom: 23px;
+    right: 30px;
+  }
+  .span1-import{
+    margin-top: 18px;
+    margin-left: 5px;
+  }
+  .colume2{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    right: 17px;
+    margin: 3px;
+  }
+ 
+  button.btn-dealer-bid {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    background-color: #9d2222;
+    border: 1px solid #9d2222;
+}
+.form{
+    margin-bottom: 50px;
+    background-color: white;
+    
+}
+.heading-dealer{
+    border: 1px solid rgb(90, 51, 51);
+    padding: 2px;
+    font-size: 25px;
+    background-color: rgb(171, 182, 182);
+}
+.th1-table{
+    background-color: rgb(231, 224, 214);
+    text-align: start;
+}
+th{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 700;
+}
+.th2-table{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.heading-dealer4{
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 25px;
+    background-color: rgb(171, 182, 182);
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 710px) {
+    h1.h1-heading-dealer {
+        font-size: 50px;
+        margin-top: 0px;
+        margin-left: 30px;
+        position: absolute;
+        top: 25px;
+    }
+    .main-heading{
+        width: 80%;
+     
+    }
+    .logo{
+    width: 20%;
+    }
+}
+@media screen and (max-width: 709px)  and (min-width: 570px) {
+    h1.h1-heading-dealer {
+        font-size: 42px;
+        margin-top: 0px;
+        margin-left: 20px;
+        position: absolute;
+        top: 25px;
+    }
+    .main-heading{
+        width: 75%;
+     
+    }
+    .logo{
+    width: 25%;
+    }
+}
+@media screen and (max-width: 569px)  and (min-width: 490px) {
+    h1.h1-heading-dealer {
+        font-size: 35px;
+        margin-top: 0px;
+        margin-left: 10px;
+        position: absolute;
+        top: 25px;
+    }
+    .main-heading{
+        width: 71%;
+     
+    }
+    .logo{
+    width: 29%;
+    }
+}
+@media screen and (max-width: 489px)  and (min-width: 360px) {
+    h1.h1-heading-dealer {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: 10px;
+        position: absolute;
+        top: 25px;
+    }
+    .main-heading{
+        width: 70%;
+     
+    }
+    .logo{
+    width: 30%;
+    }
+    .img-fluid{
+        width: 100px;
+       }
+}
+@media screen and (max-width: 359px)  and (min-width: 280px) {
+    h1.h1-heading-dealer {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-left: 10px;
+        position: absolute;
+        top: 25px;
+    }
+    .main-heading{
+        width: 67%;
+     
+    }
+    .logo{
+    width: 33%;
+    }
+    .img-fluid{
+     width: 100px;
+    }
+}
